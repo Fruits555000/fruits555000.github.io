@@ -1,0 +1,17 @@
+._open {
+    list-style-image: url(../images/status_points/bullet_green.png);
+}
+
+._closed {
+    list-style-image: url(../images/status_points/bullet_red.png);
+}
+
+._lifted {
+    list-style-image: url(../images/status_points/bullet_grey.png);
+}
+
+#text {
+    width: 518px;
+    margin: 0 auto;
+    display: block;
+}
