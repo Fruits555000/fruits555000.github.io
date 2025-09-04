@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+}
+
+.menubar {
+    width: 100%;
+    height: 21px;
+    background: rgb(0,172,11);
+    background: linear-gradient(90deg, rgba(0,172,11,1) 0%, rgba(245,255,0,1) 100%);
+}
+
+.menubar ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.menubar ul li {
+    height: 100%;
+    width: 74.34px;
+    border-right: 1px solid #888888;
+    margin: 0;
+    padding-left: 6px;
+    float: left;
+}
+
+.menubar ul li a {
+    text-align: center;
+    font-weight: bold;
+    color: inherit;
+    vertical-align: middle;
+    text-decoration: inherit;
+}
+
+h1 {
+    font-size: 15px;
+    padding-left: 190px;
+    text-decoration: underline;
+    color: #0000AA;
+}
+
+#page-content {
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+}
+
+.property {
+    background-color: #dddddd;
+    font-weight: bold;
+}
+
+#locations , .name, .facility, .status, .photos, .links {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.icon {
+    padding: 0;
+    border-spacing: 0;
+    border: 0;
+}
+
+.opened, .closed, .distance {
+    text-align: right;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px solid #595959;
+	border-collapse: collapse;
+}
+
+#bordered1, #bordered2, #bordered3 {
+    border-bottom: 1px solid #595959;
+    border-collapse: collapse;
+}
+
+img {
+    display: block;
+}
