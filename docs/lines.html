@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="css/requirem.css">
 </head>
 
+<script>
+  // Check if URL ends with ".html"
+  if (window.location.pathname.endsWith('.html')) {
+    // Redirect to the same page without ".html"
+    window.location.href = window.location.pathname.replace('.html', '');
+  }
+</script>
+
 <body>
     <div id="page-content">
         <h2 style="text-align: center;">AustralianRail.net</h2>
@@ -19,7 +27,7 @@
                 </li>
 
                 <li>
-                    <a href="/lines">Lines</a>
+                    <a href="lines">Lines</a>
                     <ul class="menucfg"></ul>
                 </li>
             </ul>
