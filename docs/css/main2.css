@@ -2,6 +2,10 @@
     list-style-image: url(../images/status_points/bullet_green.png);
 }
 
+._tourist {
+    list-style-image: url(../images/status_points/bullet_blue.png);
+}
+
 ._closed {
     list-style-image: url(../images/status_points/bullet_red.png);
 }
